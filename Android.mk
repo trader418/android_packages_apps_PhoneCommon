@@ -22,5 +22,7 @@ LOCAL_RESOURCE_FILES := $(addprefix $(LOCAL_PATH)/, res)
 
 LOCAL_PACKAGE_NAME := com.android.phone.common
 
+LOCAL_AAPT_INCLUDE_ALL_RESOURCES := true
+
 include $(BUILD_PACKAGE)
 include $(CLEAR_VARS)
